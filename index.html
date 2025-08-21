@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KoKo's Build Construction Company</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+   <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="images/logo.jpg" alt="KoKo's Build Logo">
+                <h1>KoKo's <span>Build</span></h1>
+            </div>
+            <div class="mobile-toggle">☰</div>
+            <nav>
+                <ul>
+                   <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+     <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <h2>Building Dreams Into Reality</h2>
+            <p>KoKo's Build Construction Company, where the principles of civil engineering intertwine with Prefection and integrity.</p>
+            <a href="#contact" class="btn">Get Free Quote</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Services</h2>
+                <p>* Drawing & Designing Building plans.</p>
+                <p>* Managing Residential Projects</p>
+                <p>* Interior designs</p>
+                <p>* Supervising</p>
+                <p>* Estimating</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                  <div class="service-img">
+                    <img src="images/residential.jpg" alt="Residential Construction">
+                  </div>
+                    <div class="service-content">
+                        <h3>Residential Construction</h3>
+                        <p>From custom homes to renovations, we bring your residential dreams to life with quality craftsmanship and attention to detail.</p>
+                        <a href="#contact" class="btn">Learn More</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                  <div class="service-img">
+                    <img src="images/commercial.jpg" alt="Commercial Construction">
+                  </div>
+                    <div class="service-content">
+                        <h3>Commercial Construction</h3>
+                        <p>We deliver commercial projects on time and within budget, creating functional and inspiring spaces for businesses of all sizes.</p>
+                        <a href="#contact" class="btn">Learn More</a>
+                    </div>
+                    </div>
+                <div class="service-card">
+                  <div class="service-img">
+                    <img src="images/renovation.jpg" alt="Renovation & Remodeling">
+                  </div>
+                    <div class="service-content">
+                        <h3>Renovation & Remodeling</h3>
+                        <p>Transform your existing space with our expert renovation and remodeling services, enhancing both functionality and aesthetics.</p>
+                        <a href="#contact" class="btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-container">
+                <div class="about-image">
+                    <img src="images/about.jpg" alt="About KoKo's Build">
+                </div>
+                <div class="about-content">
+                    <h2>About KoKo's Build</h2>
+                    <p>Founded in 2005, KoKo's Build Construction Company has been at the forefront of innovative construction solutions, delivering quality projects across the region. Our team of experienced professionals is committed to excellence in every aspect of our work.</p>
+                    <p>We believe in building strong relationships with our clients, understanding their vision, and exceeding their expectations. With a focus on sustainability, safety, and cutting-edge techniques, we ensure every project is completed to the highest standards.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                          <h3>15+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>250+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>98%</h3>
+                            <p>Client Satisfaction</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Projects</h2>
+                <p>Explore our portfolio of completed projects, showcasing our expertise in residential, commercial, and renovation construction.</p>
+            </div>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="residential">Residential</button>
+                <button class="filter-btn" data-filter="commercial">Commercial</button>
+                <button class="filter-btn" data-filter="renovation">Renovation</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="residential">
+                    <img src="images/modern-family-home.jpg" alt="Modern Family Home">
+                    <div class="project-overlay">
+                        <h3>Modern Family Home</h3>
+                        <p>Residential Construction</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="commercial">
+                    <img src="images/corporate-office.jpg" alt="Corporate Office Building">
+                    <div class="project-overlay">
+                        <h3>Corporate Office Building</h3>
+                        <p>Commercial Construction</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="renovation">
+                    <img src="images/kitchen-remodel.jpg" alt="Kitchen Remodel">
+                    <div class="project-overlay">
+                        <h3>Kitchen Remodel</h3>
+                        <p>Renovation & Remodeling</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+                 <div class="project-card" data-category="residential">
+                    <img src="images/luxury-villa.jpg" alt="Luxury Villa">
+                    <div class="project-overlay">
+                        <h3>Luxury Villa</h3>
+                        <p>Residential Construction</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="commercial">
+                    <img src="images/retail-complex.jpg" alt="Retail Complex">
+                    <div class="project-overlay">
+                        <h3>Retail Complex</h3>
+                        <p>Commercial Construction</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="renovation">
+                    <img src="images/historic-home.jpg" alt="Historic Home Restoration">
+                    <div class="project-overlay">
+                        <h3>Historic Home Restoration</h3>
+                        <p>Renovation & Remodeling</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>Client Testimonials</h2>
+                <p>Don't just take our word for it - hear what our satisfied clients have to say about their experience with KoKo's Build.</p>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial-slide active">
+                    <p>"KoKo's Build transformed our dream home into reality. Their attention to detail and professionalism throughout the entire process was exceptional. We couldn't be happier with the result!"</p>
+                    <div class="client-info">
+                        <img src="images/john-smith.jpg" alt="John Smith">
+                        <h4>John Smith</h4>
+                        <span>Residential Client</span>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <p>"We hired KoKo's Build for our office renovation, and they exceeded our expectations. The project was completed on time and within budget, with minimal disruption to our business operations."</p>
+                    <div class="client-info">
+                        <img src="images/sarah-johnson.jpg" alt="Sarah Johnson">
+                        <h4>Sarah Johnson</h4>
+                        <span>Commercial Client</span>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <p>"The team at KoKo's Build is truly talented. They took our outdated kitchen and created a stunning, functional space that we love spending time in. Their design suggestions were spot-on."</p>
+                    <div class="client-info">
+                        <img src="images/michael-brown.jpg" alt="Michael Brown">
+                        <h4>Michael Brown</h4>
+                        <span>Renovation Client</span>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <div class="slider-dot active" data-slide="0"></div>
+                <div class="slider-dot" data-slide="1"></div>
+                <div class="slider-dot" data-slide="2"></div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+                <p>Ready to start your construction project? Get in touch with our team for a free consultation and quote.</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>Our team is ready to answer your questions and help you plan your next construction project. Contact us today for a free consultation.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i>📍</i>
+                            <p>123 Construction Avenue, Building City, BC 12345</p>
+                        </div>
+                         <div class="contact-item">
+                            <i>📞</i>
+                            <p>(+231)778670978</p>
+                            <p>(+231)880265344</p>
+                        </div>
+                        <div class="contact-item">
+                            <i>✉️</i>
+                            <p>kokosbuild@gmail.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <i>⏰</i>
+                            <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+                     <div class="social-links">
+                        <a href="#"><span>fb</span></a>
+                        <a href="#"><span>in</span></a>
+                        <a href="#"><span>ig</span></a>
+                        <a href="#"><span>tw</span></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                         <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                         <div class="form-group">
+                            <label for="service">Service Interested In</label>
+                            <select id="service" name="service">
+                                <option value="residential">Residential Construction</option>
+                                <option value="commercial">Commercial Construction</option>
+                                <option value="renovation">Renovation & Remodeling</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h4>KoKo's Build</h4>
+                    <p>Delivering exceptional construction services with quality craftsmanship and innovative design solutions for residential and commercial projects.</p>
+                    <div class="social-links">
+                        <a href="#"><span>fb</span></a>
+                        <a href="#"><span>in</span></a>
+                        <a href="#"><span>ig</span></a>
+                        <a href="#"><span>tw</span></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                 <div class="footer-col">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="#services">Residential Construction</a></li>
+                        <li><a href="#services">Commercial Construction</a></li>
+                        <li><a href="#services">Renovation & Remodeling</a></li>
+                        <li><a href="#services">Design & Planning</a></li>
+                        <li><a href="#services">Project Management</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-info">
+                        <li>
+                            <i>📍</i>
+                            <p>123 Construction Avenue, Building City, BC 12345</p>
+                        </li>
+                        <li>
+                            <i>📞</i>
+                            <p>(555) 123-4567</p>
+                        </li>
+                        <li>
+                            <i>✉️</i>
+                            <p>info@kokosbuild.com</p>
+                        </li>
+                        <li>
+                          <i>⏰</i>
+                            <p>Mon-Fri: 8:00 AM - 6:00 PM</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 KoKo's Build Construction Company. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button --> 
+    <div class="back-to-top">↑</div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
